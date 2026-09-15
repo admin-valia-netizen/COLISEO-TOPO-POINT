@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mecánica Coliseo</title>
+    <style>
+        body, html { margin: 0; padding: 0; width: 100%; height: 100%; background-color: black; display: flex; justify-content: center; }
+        .image-container { position: relative; width: 100%; max-width: 450px; height: 100vh; background-image: url('info.png'); background-size: cover; background-position: center top; background-repeat: no-repeat; }
+        .invisible-btn { position: absolute; cursor: pointer; background-color: rgba(0, 255, 255, 0.0); }
+        
+        #btn-volver { top: 18%; right: 5%; width: 15%; height: 7%; }
+        #btn-continuar { bottom: 5%; left: 25%; width: 50%; height: 8%; }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <!-- Volver lleva a Inicio -->
+        <a href="index.html"><div id="btn-volver" class="invisible-btn"></div></a>
+        <!-- Continuar lleva a Puertas -->
+        <a href="puertas.html"><div id="btn-continuar" class="invisible-btn"></div></a>
+    </div>
+</body>
+</html>
+
