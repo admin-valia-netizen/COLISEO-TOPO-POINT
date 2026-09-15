@@ -3,19 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coliseo Topo Point - Entrar</title>
+    <title>Coliseo Topo Point - Home</title>
     <style>
         body, html { margin: 0; padding: 0; width: 100%; height: 100%; background-color: black; display: flex; justify-content: center; }
         .image-container { position: relative; width: 100%; max-width: 450px; height: 100vh; background-image: url('inicio.png'); background-size: cover; background-position: center top; background-repeat: no-repeat; }
         .invisible-btn { position: absolute; cursor: pointer; background-color: rgba(0, 255, 255, 0.0); }
         
+        /* Botón ENTRAR sobre la landing de DJ Topo que lleva a la página de Inicio */
         #btn-entrar { bottom: 18%; left: 25%; width: 50%; height: 10%; }
     </style>
 </head>
 <body>
     <div class="image-container">
-        <!-- El boton ENTRAR lleva a la pagina de las puertas -->
-        <a href="puertas.html"><div id="btn-entrar" class="invisible-btn"></div></a>
+        <!-- Al tocar ENTRAR, va a la página de inicio real -->
+        <a href="inicio_menu.html"><div id="btn-entrar" class="invisible-btn"></div></a>
     </div>
 </body>
 </html>
